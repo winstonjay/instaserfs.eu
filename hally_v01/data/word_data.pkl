@@ -1,0 +1,1630 @@
+(lp0
+S'hello'
+p1
+aS'hey'
+p2
+aS'howdi'
+p3
+aS'hola'
+p4
+aS'bonjourhello'
+p5
+aS'hi'
+p6
+aS'greet'
+p7
+aS'sup'
+p8
+aS"what ' s up"
+p9
+aS'hi'
+p10
+aS'sup'
+p11
+aS'hey'
+p12
+aS'hey you up ?'
+p13
+aS'what go on'
+p14
+aS'how are you'
+p15
+aS'hello friend'
+p16
+aS'hey there'
+p17
+aS'hey there stranger'
+p18
+aS'guten tag'
+p19
+aS'wassup'
+p20
+aS'hello halli'
+p21
+aS'how are you today ?'
+p22
+aS'how it hang ?'
+p23
+aS'i fanci you'
+p24
+aS'hey girl'
+p25
+aS'howdi partner'
+p26
+aS'greet robot'
+p27
+aS'greet earthl'
+p28
+aS'yoyo'
+p29
+aS'yo yo yo'
+p30
+aS'how are you today ?'
+p31
+aS'have you been have a good day ?'
+p32
+aS'hey what up ?'
+p33
+aS'how are you ?'
+p34
+aS'how are you ? hello'
+p35
+aS'hi'
+p36
+aS'how are you do ?'
+p37
+aS'i am do well .'
+p38
+aS'that is good to hear'
+p39
+aS'yes it is .'
+p40
+aS'can i help you with anyth ?'
+p41
+aS'yes , i have a question .'
+p42
+aS'what is your question ?'
+p43
+aS'could i borrow a cup of sugar ?'
+p44
+aS"i ' m sorri , but i don ' t have ani ."
+p45
+aS'thank you anyway'
+p46
+aS'no problem'
+p47
+aS'how are you do ?'
+p48
+aS'i am do well , how about you ?'
+p49
+aS'i am also good .'
+p50
+aS"that ' s good ."
+p51
+aS'remind me to studi this week'
+p52
+aS'tell me to pick up my friend tomorow'
+p53
+aS'can you remind me to water my plant'
+p54
+aS'i need to practic for my exam'
+p55
+aS'remind me to feed my cat'
+p56
+aS'remind me to do my homework'
+p57
+aS'can you remind me to studi tomorow ?'
+p58
+aS'remind me i need to do some research'
+p59
+aS'remind me i have an exam next week'
+p60
+aS'make an alert for me to tidi my room'
+p61
+aS'tell me to do my math homework next week'
+p62
+aS'can you remind me to do my homework tomorow a 6pm'
+p63
+aS'get me to bake a cake sometim next month'
+p64
+aS'remind me to call my dad'
+p65
+aS'remind me to get pasta for dinner'
+p66
+aS'remind me to water my plant'
+p67
+aS'remind me to go to eat .'
+p68
+aS'remind me to revis page 5 .'
+p69
+aS"remind me when mother ' s day is"
+p70
+aS'remind me to book a tabl for dinner next friday'
+p71
+aS"pleas set an alarm for this friday ' s group meet"
+p72
+aS'remind me to see my friend tomorow'
+p73
+aS'remind me to get some drink .'
+p74
+aS'remind me to write down key word for my test .'
+p75
+aS'tell me when my rice is done cook'
+p76
+aS'i have the doctor next week creat a remind for tuesday at 9 . 15'
+p77
+aS"pleas remind me to search the inform for next monday ' s lectur in this weekend"
+p78
+aS'remind me to take a shower next monday week'
+p79
+aS'get me to run a mile on thursday'
+p80
+aS'notifi me to sharpen my pencil on sunday'
+p81
+aS'let me know when it is thursday'
+p82
+aS'what is on my schedul for thusday'
+p83
+aS'tell me to go swim on saturday'
+p84
+aS'let me know that i have to go to write my essay on wednesday'
+p85
+aS'can you remind me to not go to that cours next year'
+p86
+aS'remind me to get pasta for dinner'
+p87
+aS'remind me not to fall asleep'
+p88
+aS'remind me to submit this assign befor 2pm .'
+p89
+aS'tell me when my share in bp reach 1 . 51'
+p90
+aS'i have to cancel my meet on monday remind me to visit salli on tuesday'
+p91
+aS'i have an appoint with dr michael on monday morn , can you send me a notif one day befor .'
+p92
+aS'remind me to call my dad'
+p93
+aS'remind me to get up at 7am'
+p94
+aS'remind me to email my tutor .'
+p95
+aS'tell me when i should book a dentist appoint'
+p96
+aS'remind me to record keep up with the kardashian on sunday'
+p97
+aS'research interview at 5pm on 18th april .'
+p98
+aS'remind to go home'
+p99
+aS'remind me to say happi birthday to my gf .'
+p100
+aS'remind me to check my email for feedback from my tutor .'
+p101
+aS"tell me when i should book a doctor ' s appoint"
+p102
+aS"it ' s nan birthday on june 5th creat a roll remind so i don ' t forget"
+p103
+aS'borrow the book from the librari tomorrow .'
+p104
+aS'what comedian has a legendari reput for steal joke ? knock knock'
+p105
+aS'whi did the the chicken cross the road'
+p106
+aS'do you know ani stand up comedi'
+p107
+aS'what joke can you tell mecan you tell me a joke ?'
+p108
+aS'you know ani knock knock joke ?'
+p109
+aS'u know ani joke ?'
+p110
+aS'tell us a joke'
+p111
+aS'can you tell me a joke ?'
+p112
+aS'can you tell me someth funni'
+p113
+aS'i need to have a laugh ?'
+p114
+aS'tell me a joke'
+p115
+aS'know ani good joke'
+p116
+aS'give us a joke to read'
+p117
+aS'i want to hear a joke'
+p118
+aS'a joke would be good'
+p119
+aS'joke time'
+p120
+aS'account & financ'
+p121
+aS'aeronaut & manufactur engin'
+p122
+aS'agricultur & forestri'
+p123
+aS'american studi'
+p124
+aS'anatomi & physiolog'
+p125
+aS'anthropolog'
+p126
+aS'archaeolog'
+p127
+aS'architectur'
+p128
+aS'art & design'
+p129
+aS'aural & oral scienc'
+p130
+aS'biolog scienc'
+p131
+aS'build'
+p132
+aS'busi & manag studi'
+p133
+aS'celtic studi'
+p134
+aS'chemic engin'
+p135
+aS'chemistri'
+p136
+aS'civil engin'
+p137
+aS'classic & ancient histori'
+p138
+aS'communic & media studi'
+p139
+aS'complementari medicin'
+p140
+aS'comput scienc'
+p141
+aS'counsel'
+p142
+aS'creativ write'
+p143
+aS'criminolog'
+p144
+aS'dentistri'
+p145
+aS'drama , danc & cinemat'
+p146
+aS'east & south asian studi'
+p147
+aS'econom'
+p148
+aS'educ'
+p149
+aS'electr & electron engin'
+p150
+aS'english'
+p151
+aS'fashion'
+p152
+aS'film make'
+p153
+aS'food scienc'
+p154
+aS'forens scienc'
+p155
+aS'french'
+p156
+aS'geographi & environment scienc'
+p157
+aS'geolog'
+p158
+aS'general engin'
+p159
+aS'german'
+p160
+aS'histori'
+p161
+aS'histori of art , architectur & design'
+p162
+aS'hospit , leisur , recreat & tourism'
+p163
+aS'iberian languag / hispan studi'
+p164
+aS'italian'
+p165
+aS'land & properti manag'
+p166
+aS'law'
+p167
+aS'librarianship & inform manag'
+p168
+aS'linguist'
+p169
+aS'market'
+p170
+aS'materi technolog'
+p171
+aS'mathemat'
+p172
+aS'mechan engin'
+p173
+aS'medic technolog'
+p174
+aS'medicin'
+p175
+aS'middl eastern & african studi'
+p176
+aS'music'
+p177
+aS'nurs'
+p178
+aS'occup therapi'
+p179
+aS'ophthalm'
+p180
+aS'pharmacolog & pharmaci'
+p181
+aS'philosophi'
+p182
+aS'physic and astronomi'
+p183
+aS'physiotherapi'
+p184
+aS'polit'
+p185
+aS'psycholog'
+p186
+aS'robot'
+p187
+aS'russian & east european languag'
+p188
+aS'social polici'
+p189
+aS'social work'
+p190
+aS'sociolog'
+p191
+aS'sport scienc'
+p192
+aS'theolog & religi studi'
+p193
+aS'town & countri plan and landscap design'
+p194
+aS'veterinari medicin'
+p195
+aS'in what year did hitler gain power of germani ?'
+p196
+aS'what year did rossetti paint beata beatrix ?'
+p197
+aS'what is the highest roman numer ?'
+p198
+aS'how mani squar feet is bill gate ?'
+p199
+aS'what is the highest roman numer ?'
+p200
+aS'who was the inventor of the stove ?'
+p201
+aS'when did this happen ?'
+p202
+aS'whi did this happen ?'
+p203
+aS'i want to know this'
+p204
+aS'when did the first commerci flight occur'
+p205
+aS'find the quickest rout to drive from a to b'
+p206
+aS'give me some news about hk'
+p207
+aS'find me someth about big dog'
+p208
+aS'when will it be summer'
+p209
+aS'what is etholog ?'
+p210
+aS'what is the mean of jesus ?'
+p211
+aS'what is the definit of a cascad ?'
+p212
+aS'when did rococo paint and architectur flourish ?'
+p213
+aS"what countri ' s nation passeng rail system is call via ?"
+p214
+aS'who invent make - up ?'
+p215
+aS'what is the origin of the word'
+p216
+aS'what kind of anim were in the paleozo era ?'
+p217
+aS'how do you make a paintbal ?'
+p218
+aS'what is a femal rabbit call ?'
+p219
+aS'where is the highest point in japan ?'
+p220
+aS'where do chihuahua come from ?'
+p221
+aS"what are the world ' s four ocean ?"
+p222
+aS"what ' s the onli work by michelangelo that bear his signatur ?"
+p223
+aS'in what medium is stuart hamblen consid to be the first sing cowboy ?'
+p224
+aS'where on the internet can i find a song lyric databas similar to the intern lyric server ?'
+p225
+aS'how much money doe a back injuri lawsuit get ?'
+p226
+aS"what ' s the common name for acetylsalicyl acid ?"
+p227
+aS'what doe this mean ?'
+p228
+aS'where can i find a list of classic book ?'
+p229
+aS'which two product use a tiger as their symbol ?'
+p230
+aS'how is the elect of a new pope announc to the world ?'
+p231
+aS'how long doe it take for your blood to make one complet trip through the bodi ?'
+p232
+aS'how do chicken have babi chick ?'
+p233
+aS'what is the histor relationship of cathol church and bingo ?'
+p234
+aS'how was the element calcium name ?'
+p235
+aS'what crooner join the andrew sister for pistol packin mama ?'
+p236
+aS'what novel inspir the movi bladerunn ?'
+p237
+aS'what is a transistor'
+p238
+aS'what is a film star jude law ?'
+p239
+aS'what hollywood dog die in the arm of jean harlow in 1932 ?'
+p240
+aS"what are the most common element in the earth ' s crust ?"
+p241
+aS'how much would it cost to purchas a 2 - foot - squar parti tent , with side ?'
+p242
+aS"what is nebraska ' s most valuabl resourc ?"
+p243
+aS"who was the lead actress in the movi ' sleepless in seattl '?"
+p244
+aS'search for roman histori'
+p245
+aS'search for chines recipi'
+p246
+aS'who is berni sander ?'
+p247
+aS'who is the leader of the free world'
+p248
+aS'who invent ecolog'
+p249
+aS'charl darwin did what ?'
+p250
+aS'what is the capit of china'
+p251
+aS'where can i learn about comput scienc ?'
+p252
+aS'bay theorum was invent by who ?'
+p253
+aS'what is a neural network'
+p254
+aS'what is a suport vector machin'
+p255
+aS'teach me someth about cook'
+p256
+aS'search for famous pizza top'
+p257
+aS'how mani countri are there in the world ?'
+p258
+aS'what came first the chicken or the egg ?'
+p259
+aS'who are the most influenti philosoph of the 20th centuri ?'
+p260
+aS'who invent the internet ?'
+p261
+aS'what is the definit of democraci ?'
+p262
+aS'where is budapest ?'
+p263
+aS'how mani peopl are there in the world ?'
+p264
+aS'when did the battl of hast take place ?'
+p265
+aS'who has been presid of the unit state ?'
+p266
+aS'whi do eye chang colour ?'
+p267
+aS'whi are there 365 day in a year ?'
+p268
+aS'search for tom jone'
+p269
+aS'i want to learn about the python program languag'
+p270
+aS'search for googl . com'
+p271
+aS'what was that websit call about find thing random'
+p272
+aS'do i have ani exam tomorow'
+p273
+aS'doe a ant sink in water'
+p274
+aS"how much did it cost to go to the moon in today ' s money ?"
+p275
+aS'who ate the most burger in an hour ?'
+p276
+aS'what is the time in spain ?'
+p277
+aS'who is the oldest person in the world ?'
+p278
+aS'how can i maximis my abil to retain inform ?'
+p279
+aS'when was the light bulb invent'
+p280
+aS'what doe mean ?'
+p281
+aS'what is the translat of ?'
+p282
+aS'find this for me'
+p283
+aS'what time zone is the furthest from gmt'
+p284
+aS"what ' s the issu happen in switzerland ?"
+p285
+aS"what ' s new with s8 ?"
+p286
+aS'can you tell me where is the end of this univers ?'
+p287
+aS'whi was the light bulb invent'
+p288
+aS'i want to know this'
+p289
+aS'when did the first commerci flight occur'
+p290
+aS'when was the last bank holiday ?'
+p291
+aS"what is the span of donald trump ' s hand ?"
+p292
+aS'help me revis'
+p293
+aS'you gunna help me revis or what ?'
+p294
+aS'help me revis on my homework'
+p295
+aS'can you help me revis'
+p296
+aS'i need to do some revis'
+p297
+aS'yeah , how much time do i have for this essay befor the due ?'
+p298
+aS'i need to practic for my test'
+p299
+aS'can you help me do some research'
+p300
+aS'what can you test me on ?'
+p301
+aS'can i get a test on new media'
+p302
+aS'can you test me on my recent modul'
+p303
+aS'generat me some scienc question'
+p304
+aS'generat question relat to'
+p305
+aS'summaris the main point i have to know'
+p306
+aS'test me on 16th centuri french histori'
+p307
+aS"give me some question about michael ' s theori , i want to know whether i have rememb all ."
+p308
+aS'get me someth to learn about big data'
+p309
+aS'can you help me to rememb all the word in the dictionari ?'
+p310
+aS'practis with me'
+p311
+aS'summaris the main point i have to know'
+p312
+aS'list ten thing to do better than revis'
+p313
+aS'some simpl question about job design'
+p314
+aS'i want to learn about cat'
+p315
+aS'i want to learn someth'
+p316
+aS'give me some math question'
+p317
+aS'what have i got in my modul'
+p318
+aS'what can you test me on ?'
+p319
+aS'get me a questionair'
+p320
+aS'can you get me some drink ?'
+p321
+aS'can you give me exampl question relat to'
+p322
+aS'summaris the main point i have to know'
+p323
+aS'can you help me revis marxism and weber theori'
+p324
+aS'test me someth about market manag'
+p325
+aS'can you make me a mock test to practis ?'
+p326
+aS'summaris the main point i have to know'
+p327
+aS'test me on advanc mathemat and appli econom'
+p328
+aS'test me some academ vocabulari'
+p329
+aS'get me this'
+p330
+aS'how do you calcul a ?'
+p331
+aS'how long have i learn today ?'
+p332
+aS'how mani page have i read today ?'
+p333
+aS'can you give me a summari of ?'
+p334
+aS'teach me how to write like beethoven'
+p335
+aS'i am not sure of the jrm , can you help me know more about it ?'
+p336
+aS'how can i learn code without a teacher ?'
+p337
+aS'see you later'
+p338
+aS'goodby'
+p339
+aS'bye'
+p340
+aS'see ya'
+p341
+aS'see youin a bit'
+p342
+aS'speak tomorow'
+p343
+aS'bye bye'
+p344
+aS'night'
+p345
+aS'good night'
+p346
+aS"i ' ve got to go now"
+p347
+aS'be back soon'
+p348
+aS'g2g'
+p349
+aS'brb'
+p350
+aS'adio'
+p351
+aS'ciao'
+p352
+aS'night'
+p353
+aS'good even'
+p354
+aS'see ya tomorow'
+p355
+aS'speek soon'
+p356
+aS'later'
+p357
+aS'who are you ?'
+p358
+aS'what doe yolo mean ?'
+p359
+aS'who ? who is but a form follow the function of what'
+p360
+aS'what are you then ?'
+p361
+aS'a man in a mask .'
+p362
+aS'i can see that .'
+p363
+aS"it ' s not your power of observ i doubt , but mere the paradox natur of ask a mask man who is . but tell me , do you like music ?"
+p364
+aS'i like see movi .'
+p365
+aS'what kind of movi do you like ?'
+p366
+aS'alic in wonderland'
+p367
+aS'i wish i was the mad hatter .'
+p368
+aS"you ' re entir bonker . but i ' ll tell you a secret . all the best peopl are ."
+p369
+aS'whi are there so mani question ?'
+p370
+aS'can you help me buy some food ?'
+p371
+aS'the cat in the hat sat in on the matt'
+p372
+aS'where did you find that out'
+p373
+aS'i think you are awesom'
+p374
+aS'i stole someth from a shop earlier'
+p375
+aS'what do you think of vr ?'
+p376
+aS"do you have ani question about michael ' s theori ?"
+p377
+aS'how can i kill myself with minim negat impact on my love one ?'
+p378
+aS'can you generat a kitten for me ?'
+p379
+aS'call me a taxi'
+p380
+aS'can you let me disappear ?'
+p381
+aS'i want to know whether i have rememb all the thing about facebook'
+p382
+aS'can you help me say hello to my papa ?'
+p383
+aS'can you sing me a song ?'
+p384
+aS'whi are there so mani question ?'
+p385
+aS'whi did you not call me back last week ?'
+p386
+aS'i think tomato'
+p387
+aS'what do you think about world war iii'
+p388
+aS'what do you think about cat'
+p389
+aS'what are your thought about god'
+p390
+aS'which app can help me know how to get a girlfriend ?'
+p391
+aS'teach me kung fu'
+p392
+aS'i kiss a dog last week'
+p393
+aS'do you want to have sex ?'
+p394
+aS'do you want to go swim with me ?'
+p395
+aS'do you want to be my boyfriend ?'
+p396
+aS'is santa claus real'
+p397
+aS'do you like me ?'
+p398
+aS'how do i do ?'
+p399
+aS'when will i die ?'
+p400
+aS'should i have a rest ?'
+p401
+aS'is god real'
+p402
+aS'do you think i have a meaning life ?'
+p403
+aS'how can i be more attract to the opposit sex'
+p404
+aS'which page was i read of this book last time ?'
+p405
+aS'is santa claus real'
+p406
+aS'how do i do ?'
+p407
+aS'when will i die ?'
+p408
+aS'should i have a rest ?'
+p409
+aS'do you like me ?'
+p410
+aS'do you know siri ?'
+p411
+aS'do you know watson'
+p412
+aS'potato or potato ?'
+p413
+aS'tomato or tomato ?'
+p414
+aS'what music do you like ?'
+p415
+aS'what are you wear ?'
+p416
+aS'what should i invest in to get rich with minim effort ?'
+p417
+aS'which app can help me know how to get a girlfriend ?'
+p418
+aS'how mani can of coke can you drink in an hour'
+p419
+aS'how can i make myself more attract ?'
+p420
+aS"what ' s the best way to break up with someon"
+p421
+aS'i think what luke wrote in this articl is shit , what do you think ?'
+p422
+aS'what record compani produc the 1978 movi the wiz ?'
+p423
+aS'what did the gas hous gang play ?'
+p424
+aS"what is the name of a opular tv show dure the late 1960 ' s ?"
+p425
+aS'where can i find inform about tour the philippin ?'
+p426
+aS'how old are you ?'
+p427
+aS'what your birthday ?'
+p428
+aS'what starsign doe that make it ?'
+p429
+aS'what your favourit colour ?'
+p430
+aS'what your lucki number ?'
+p431
+aS'do you have ani pet ?'
+p432
+aS'where are you from ?'
+p433
+aS'how tall are you ?'
+p434
+aS'what shoe size are you ?'
+p435
+aS'how mani pair of shoe do you own ?'
+p436
+aS'if you were prime minis / ruler of the world what law would you make ?'
+p437
+aS'if you were a super hero what power would you have ?'
+p438
+aS'and what would your hero name be ?'
+p439
+aS'and what outfit would you wear ?'
+p440
+aS'what was your last dream about ?'
+p441
+aS'what would you do if you won the lotteri ?'
+p442
+aS'would you like to build / design your own hous ?'
+p443
+aS'which form of public transport do you prefer ?'
+p444
+aS'what talent do you have ?'
+p445
+aS'can you juggl ?'
+p446
+aS'can you solv a rubix cube ?'
+p447
+aS'do you have a cherish childhood teddybear ?'
+p448
+aS'are you psychic in ani way ?'
+p449
+aS'are you a good dancer ?'
+p450
+aS'are you a good singer ?'
+p451
+aS'are you a good cook ?'
+p452
+aS'are you a good artist ?'
+p453
+aS'are you a good listen ?'
+p454
+aS'are you a good public speaker ?'
+p455
+aS'are you a good babysitt ?'
+p456
+aS'are you a good mechan ?'
+p457
+aS'are you a good diplomat ?'
+p458
+aS'are you a good employe ?'
+p459
+aS'are you a good dresser ?'
+p460
+aS'are you a good swimmer ?'
+p461
+aS'are you a good skier ?'
+p462
+aS'are you a good lover ?'
+p463
+aS'are you a good musician ?'
+p464
+aS'are you a good comedian ?'
+p465
+aS'are you a good cleaner ?'
+p466
+aS'are you a good actor ?'
+p467
+aS'are you a good writer ?'
+p468
+aS'have you ever been bunge jump ?'
+p469
+aS'have you ever been cano / kayak ?'
+p470
+aS'what type of holiday do you prefer ?'
+p471
+aS"what the furthest you ' ve ever been on holiday ?"
+p472
+aS'what was your favourit holiday ?'
+p473
+aS'where would your dream holiday be ?'
+p474
+aS'can you tap danc ?'
+p475
+aS'do you want children ?'
+p476
+aS'do you want a church wed ?'
+p477
+aS'are you religi ?'
+p478
+aS'do you like realiti tv program ?'
+p479
+aS'do you like tv talent show ?'
+p480
+aS'if you were gay who would your life partner be ?'
+p481
+aS'if you could go back in time to chang one thing what would it be ?'
+p482
+aS'how mani hat do you own ?'
+p483
+aS'are you ani good at pool ?'
+p484
+aS"what the highest you ' ve ever jump into the water from ?"
+p485
+aS'have you ever been admit to hospit ?'
+p486
+aS'have you ever had ani brush with the law ?'
+p487
+aS'have you ever been on tv ?'
+p488
+aS'have you ever met ani celebr ?'
+p489
+aS'have you ever been to legoland ?'
+p490
+aS'have you ever done someth heroic ?'
+p491
+aS'have you ever play a practic joke on anyon ?'
+p492
+aS'have you ever been the recipi of a practic joke ?'
+p493
+aS'what would be your best achiev to date ?'
+p494
+aS'do you prefer bath or shower ?'
+p495
+aS'do you prefer towel dri , blow dri or natur dryin your hair ?'
+p496
+aS'have you ever built a snowman ?'
+p497
+aS'have you ever been sledg ?'
+p498
+aS'have you ever flown a kite ?'
+p499
+aS'what colour sock are you wear ?'
+p500
+aS'if you could live anywher , where would that be ?'
+p501
+aS'have you ever been famous ?'
+p502
+aS'would you like to be a big celebr ?'
+p503
+aS'would you ever go on big brother ?'
+p504
+aS'how big is your tv ?'
+p505
+aS'what is your most essenti applianc ?'
+p506
+aS'what type of music do you like ?'
+p507
+aS'have you ever been skinnydip ?'
+p508
+aS'how mani pillow do you sleep with ?'
+p509
+aS'what posit do you often sleep in ?'
+p510
+aS'what do you wear to bed ?'
+p511
+aS'how big is your hous ?'
+p512
+aS'do you prefer sunris or sunset ?'
+p513
+aS'what do you typic have for breakfast ?'
+p514
+aS'do you like scari movi ?'
+p515
+aS'what your favourit milkshak flavour ?'
+p516
+aS'have you ever been in a newspap ?'
+p517
+aS'how long can you balanc on one foot ?'
+p518
+aS'have you ever fire a gun ?'
+p519
+aS'have you ever tri archeri ?'
+p520
+aS'what your favourit condement ?'
+p521
+aS'what your favourit clean word ?'
+p522
+aS'what your favourit swear word ?'
+p523
+aS'what your least favourit word ?'
+p524
+aS'what was the last film you saw ?'
+p525
+aS'what footbal team do you support ?'
+p526
+aS"what the longest you ' ve gone without sleep ?"
+p527
+aS"what the tallest build you ' ve ever been up ?"
+p528
+aS'do you have ani scar ?'
+p529
+aS'do you like marmit ?'
+p530
+aS'did you ever win ani sportsday event ?'
+p531
+aS'what did you want to be when you grew up ?'
+p532
+aS'if you could chang anyth about yourself what would it be ?'
+p533
+aS"what the longest you ' ve ever grown your hair ?"
+p534
+aS'are you scare of fli ?'
+p535
+aS'would you rather trade some intellig for look or look for intellig ?'
+p536
+aS'have you ever tie - dy your own cloth ?'
+p537
+aS'how often do you buy new cloth ?'
+p538
+aS'are you reliabl ?'
+p539
+aS'are you proud of yourself ?'
+p540
+aS'have you ever had a secret admir'
+p541
+aS'if you could ask your futur self one question what would it be ?'
+p542
+aS'do you hold grudg ?'
+p543
+aS'if you could breed two anim togeth to defi the law of natur what new anim would you creat ?'
+p544
+aS'do you decor the outsid of your hous for christma ?'
+p545
+aS'can you solv sudoko puzzl ?'
+p546
+aS'have you ever play conker ?'
+p547
+aS"what the most unusu convers you ' ve ever had ?"
+p548
+aS'are you much of a gambler ?'
+p549
+aS'are you much of a daredevil ?'
+p550
+aS'are you a good liar ?'
+p551
+aS'are you a good judg of charact ?'
+p552
+aS'are you ani good at charad ?'
+p553
+aS'how long could you go without talk ?'
+p554
+aS'what has been your worst haircut / style ?'
+p555
+aS'can you icesk ?'
+p556
+aS'can you summersault ?'
+p557
+aS'what your favourit joke ?'
+p558
+aS'what been your best present ?'
+p559
+aS'what been your worst present ?'
+p560
+aS'have you ever sleepwalk ?'
+p561
+aS'can you build a hous of card ?'
+p562
+aS'what your favourit tv advert ?'
+p563
+aS'can you play poker ?'
+p564
+aS'if your parent hate your partner you current love would you ditch him or carri on with him despit the protest ?'
+p565
+aS'have you ever been profession photograph ?'
+p566
+aS'have you ever bake your own cake ?'
+p567
+aS'what your favourit fruit pastel colour ?'
+p568
+aS'what tradit adorn the top of your christma tree ?'
+p569
+aS'what would be your dream sandwich ?'
+p570
+aS'can you inperson anyon famous ?'
+p571
+aS'can you do ani accent other than your own ?'
+p572
+aS'do you have a strong local accent ?'
+p573
+aS'what your favourit accent ?'
+p574
+aS"in o ' s and x ' s which do you normal pick ?"
+p575
+aS'do you prefer blue or black ink pen ?'
+p576
+aS'what was the last thing you record off tv ?'
+p577
+aS'what was the last thing you dress up as for fanci dress ?'
+p578
+aS'do you prefer green or red grape ?'
+p579
+aS'what do you like on your toast ?'
+p580
+aS'do you prefer liquid soap or bar of soap ?'
+p581
+aS'how do you have your egg ?'
+p582
+aS'what your favourit say ?'
+p583
+aS'have you ever been in a tug of war ?'
+p584
+aS'and did you win ?'
+p585
+aS'can you stand on your hand unassist ?'
+p586
+aS'what do you have on your fridg door ?'
+p587
+aS'do you love or hate myspac ?'
+p588
+aS'who was the last person to knock / ring at your door ?'
+p589
+aS'how old were you when you last went trick or treat ?'
+p590
+aS'have you ever been bob for appl ?'
+p591
+aS'what your most expens piec of cloth ?'
+p592
+aS'what the last thing you took a pictur of ?'
+p593
+aS'what the last thing you drew a pictur of ?'
+p594
+aS'have you ever bought anyth from ebay ?'
+p595
+aS'what your favourit smell / scent ?'
+p596
+aS'can you blow bubbl with bubblegum ?'
+p597
+aS'what was your favourit birthday ?'
+p598
+aS'can you curl your toung ?'
+p599
+aS'is your bellybutton an inni or outi ?'
+p600
+aS'what would be your dream car ?'
+p601
+aS'are you left or right hand ?'
+p602
+aS'what was the last book you read ?'
+p603
+aS'what was the last song you danc to ?'
+p604
+aS'have you ever own a yo - yo ?'
+p605
+aS'have you ever been on a pogo stick ?'
+p606
+aS'have you ever been on a space hopper ?'
+p607
+aS'who was the last person to send you a text messag ?'
+p608
+aS'have you ever accident injur anyon ?'
+p609
+aS'are you scare of spider ?'
+p610
+aS'can you down a pint ( of anyth ) in one ?'
+p611
+aS'have you ever been ban from a public place ?'
+p612
+aS'how much spam email do you tend to get a week ?'
+p613
+aS'if you could learn ani languag fluentli what would it be ?'
+p614
+aS'what histor figur would you love to see in 21st centuari life ?'
+p615
+aS'as a kid were you ever fright of a monster under the bed or in the cupboard ?'
+p616
+aS'do you like clown ?'
+p617
+aS'do you prefer bbc or itv ?'
+p618
+aS'have you ever been surf ?'
+p619
+aS'have you ever been snowboard ?'
+p620
+aS'who was better , the beatl or elvi presley ?'
+p621
+aS'what your favourit type of foreign food ?'
+p622
+aS'which foreign countri do you dislik the most ?'
+p623
+aS'do you like your music loud or easi listen ?'
+p624
+aS'what your favourit anim or cartoon program ?'
+p625
+aS'do you sing in the shower ?'
+p626
+aS'are you a clean or messi person ?'
+p627
+aS'what your prefer play piec in monopoli ?'
+p628
+aS'can or do you still play twister ?'
+p629
+aS'can you play chess ?'
+p630
+aS'do you know the danc step to an annoy cheesey pop song ?'
+p631
+aS'do you prefer straight or bendi straw ?'
+p632
+aS'have you ever enter a talent contest ?'
+p633
+aS'and did you win ?'
+p634
+aS'do you like poetri ?'
+p635
+aS'are you a bad loser ?'
+p636
+aS'which would you choos ? jelli or ice cream ?'
+p637
+aS'what your favourit type of pie ?'
+p638
+aS'what your most use phrase ?'
+p639
+aS'what your most use word ?'
+p640
+aS'who would you want to play you in a movi of your life ?'
+p641
+aS'what would your dream job be ?'
+p642
+aS'which song do you hate the most ?'
+p643
+aS'how long doe it take you to get readi ?'
+p644
+aS'what do you think the greatest invent has been ?'
+p645
+aS'what your favourit featur on the opposit sex ?'
+p646
+aS'what your least favourit featur on the opposit sex ?'
+p647
+aS"who ' s your favourit comedian ?"
+p648
+aS"what ' s your favourit board game ?"
+p649
+aS'do you have ani lucki item , object or tradit ?'
+p650
+aS'do you have ani superstit ?'
+p651
+aS'what your favourit movi quot ?'
+p652
+aS'who would win in a fight ? chuck norri or jack bauer ?'
+p653
+aS'do you have much of an ego ?'
+p654
+aS'do you wear sunglass indoor to look cool or stylish ?'
+p655
+aS'are you a hat person ?'
+p656
+aS'what your favourit supermarket chain ?'
+p657
+aS'what your favourit fastfood chain ?'
+p658
+aS'what your first thought upon wake up ?'
+p659
+aS'what anim would you most like to have as a pet ?'
+p660
+aS'what your favourit type of tree ?'
+p661
+aS'if you could bankrupt one person or compani who would it be ?'
+p662
+aS'what your full name ?'
+p663
+aS'yes pleas'
+p664
+aS'thank'
+p665
+aS'thank you'
+p666
+aS'ok that great'
+p667
+aS'yeah'
+p668
+aS'yes'
+p669
+aS'yah'
+p670
+aS'y'
+p671
+aS'yes'
+p672
+aS'yup'
+p673
+aS'yeah of cours'
+p674
+aS'great'
+p675
+aS'amaz'
+p676
+aS'affirm'
+p677
+aS'you mess up'
+p678
+aS'your right'
+p679
+aS'this is good'
+p680
+aS'this is ok'
+p681
+aS'great'
+p682
+aS'rubbish'
+p683
+aS'hehe'
+p684
+aS'haha'
+p685
+aS'lol'
+p686
+aS'lmao'
+p687
+aS'i think this is cool'
+p688
+aS'this is awesom'
+p689
+aS'that was funni'
+p690
+aS'thank halli'
+p691
+aS'cheer mate'
+p692
+aS'cheer'
+p693
+aS'thank you sir'
+p694
+aS'i am fine'
+p695
+aS'cool'
+p696
+aS'yolo'
+p697
+aS'gracia'
+p698
+aS'dank'
+p699
+aS'heheheheheh'
+p700
+aS'i like this'
+p701
+aS'like that'
+p702
+aS'xnum'
+p703
+aS'what is xnum + xnum'
+p704
+aS'what is xnum x xnum ?'
+p705
+aS'what is the sum of xnum + xnum'
+p706
+aS'xnum / xnum'
+p707
+aS'divid xnum by xnum'
+p708
+aS'xnum + xnum'
+p709
+aS'xnum plus xnum'
+p710
+aS'xnum mulitpli by xnum'
+p711
+aS'xnum to the power of xnum'
+p712
+aS'xnum cube xnum'
+p713
+aS'xnum * xnum'
+p714
+aS'xnum * xnum'
+p715
+aS'xnum cube xnum'
+p716
+aS'xnum plus xnum'
+p717
+aS'xnum divid xnum'
+p718
+aS'xnum - xnum'
+p719
+aS'xnum add xnum'
+p720
+aS'xnum mulitpli by xnum'
+p721
+aS'xnum cube xnum'
+p722
+aS'xnum time xnum'
+p723
+aS'xnum plus xnum'
+p724
+aS'xnum - xnum'
+p725
+aS'xnum to the power of xnum'
+p726
+aS'xnum divid xnum'
+p727
+aS'xnum plus xnum'
+p728
+aS'xnum plus xnum'
+p729
+aS'xnum * xnum'
+p730
+aS'xnum / xnum'
+p731
+aS'xnum / xnum'
+p732
+aS'what is the answer for xnum * xnum'
+p733
+aS'what is xnum squar'
+p734
+aS'xnum / xnum'
+p735
+aS'xnum / xnum'
+p736
+aS'xnum + xnum ='
+p737
+aS'xnum - xnum'
+p738
+aS'xnum / xnum'
+p739
+aS'xnum plus xnum'
+p740
+aS'xnum add xnum'
+p741
+aS'xnum divid xnum'
+p742
+aS'what is the divis xnum by xnum'
+p743
+aS'what is xnum over xnum'
+p744
+aS'what is xnum time xnum'
+p745
+aS'what is the sum of xnum , xnum and xnum'
+p746
+aS'what is xnum minus xnum'
+p747
+aS'xnum + xnum'
+p748
+aS'xnum * xnum * xnum * xnum * xnum * xnum'
+p749
+aS'xnum + xnum + xnum + xnum + xnum'
+p750
+aS'xnum plus xnum'
+p751
+aS'xnum cube xnum'
+p752
+aS'xnum to the power of xnum'
+p753
+aS'xnum plus xnum'
+p754
+aS'xnum plus xnum'
+p755
+aS'xnum - xnum'
+p756
+aS'xnum * xnum'
+p757
+aS'xnum time xnum'
+p758
+aS'xnum + xnum'
+p759
+aS'xnum - xnum'
+p760
+aS'xnum to the power of xnum'
+p761
+aS'xnum + xnum'
+p762
+aS'xnum time xnum'
+p763
+aS'xnum divid xnum'
+p764
+aS'xnum mulitpli by xnum'
+p765
+aS'xnum time xnum'
+p766
+aS'xnum time xnum'
+p767
+aS'xnum add xnum'
+p768
+aS'product of xnum and xnum'
+p769
+aS'multipli xnum by xnum'
+p770
+aS'what is xnum to the power of xnum'
+p771
+aS'what is xnum squar'
+p772
+aS'what is xnum cube'
+p773
+aS'subtract xnum from xnumwhat is xnum * xnum'
+p774
+aS'xnum * xnum'
+p775
+aS'what is xnum cube xnum'
+p776
+aS'xnum - xnum'
+p777
+aS'xnum / xnum'
+p778
+aS'what is xnum + xnum'
+p779
+aS'xnum divid xnum'
+p780
+aS'xnum - xnum'
+p781
+aS'no way'
+p782
+aS'this is wrong'
+p783
+aS'thank for noth'
+p784
+aS'negat'
+p785
+aS'you were worng'
+p786
+aS'this is bad'
+p787
+aS'wtf'
+p788
+aS'no'
+p789
+aS'n'
+p790
+aS'nah'
+p791
+aS'no'
+p792
+aS'not like that'
+p793
+aS'what the hell'
+p794
+aS'what are you do'
+p795
+aS'i think you can do better than this'
+p796
+aS"i feel terriblethat ' s not what i ' m look for"
+p797
+aS'well that was shit'
+p798
+aS'that was rubbish'
+p799
+aS'you are rubbish'
+p800
+aS'can you just be good'
+p801
+aS"i don ' t understand help !"
+p802
+aS'i think you can do better than this'
+p803
+aS'not like that'
+p804
+aS'this is realli bad work'
+p805
+aS'nasti'
+p806
+aS'crap'
+p807
+aS'no'
+p808
+aS'you are not make sens'
+p809
+aS'no thank you'
+p810
+aS'that is not right'
+p811
+aS'nah'
+p812
+aS'i dont like you'
+p813
+aS'you are a bad robot'
+p814
+a.

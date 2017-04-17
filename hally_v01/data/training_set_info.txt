@@ -1,0 +1,15 @@
+TRAINING SET INFO:
+
+GRET size = 51
+REMI size = 53
+JOKE size = 14
+SEAR size = 170
+LERN size = 47
+BYES size = 20
+RAND size = 306
+POSS size = 39
+MATH size = 80
+NEGG size = 33
+Total size of data = 813
+----------------------------------------
+time to complete 0.078 s

@@ -1,0 +1,57 @@
+{% extends 'demo_site/base.html' %}
+{% block content %}
+            <section class="chat_ui">
+                <div class="messages-conatainer">
+                    <div class="messages-inner-container">
+                        <div class="messages">
+                            {% for post in posts %}
+                            <div class="message user-message">{{ post.message }}</div>
+                            <div class="message bot-message">{{ post.message_reply }}</div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="sender-actions">
+                    <form method="POST" id="message-form" class="message-form" action="" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {{ post_form.message }}
+                        <button type="submit" name="button" id="send" class="user-send" value="send">Send</button>
+                    </form>
+                </div>
+            </section>
+            <section class="page-content">
+                <div class="content" id="resources-id">
+                    <h1>Resources</h1>
+                </div>
+                <div class="content" id="modules-id">
+                    <h1>Modules</h1>
+                </div>
+                <div class="content" id="main-id">
+                    <h1>Main</h1>
+
+                    <h2>Current Developments</h2>
+                    <p>Currently experimental features include the following:</p>
+                    <ul class='dev_ops'>{% if dev_ops %}
+                        {% for dev in dev_ops %}
+                        <li>
+                            <h4>{{ dev.title }}</h4>
+                            <p>{{ dev.info | linebreaks }}</p>
+                        </li>
+                        {% endfor %}
+                    {% endif %}</ul>
+
+                </div>
+                <div class="add-item card">
+                    <h1>Item Title</h1>
+                    <form>
+                        <textarea></textarea>
+                    </form>
+                </div>
+            </section>
+            <div class="debug-pannel">
+                <header class="debug-head"><div class="fake-icon">{ }</div> <h4>Debug Pannel</h4></header>
+                <pre class="inner-utils"><code class="language-javascript" id="inner">
+Recives JSON responses from bot
+                </code></pre>
+            </div>
+{% endblock %}

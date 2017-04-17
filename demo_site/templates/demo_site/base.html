@@ -1,0 +1,36 @@
+<!DOCTYPE html>{% load staticfiles %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Extended Mind</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto+Mono:500" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <div class="logo-container">
+                <div class="logo">
+                    <h2 class="brand-text small"><a href="/">Extended Mind</a></h2>
+                </div>
+                <div class="header-title">
+                    <h1 class="head-title">{{ page_title }}</h1>
+                </div>
+            </div>
+        </div>
+        <nav class="links-nav">
+            <ul>{% for link_name, link_href, link_data in links %}
+                <li><a class="links" href="{{ link_href }}" data-item="{{ link_data }}">{{ link_name }}</a></li>
+            {% endfor %}</ul>
+        </nav>
+    </header>
+    <main class="main-app">
+        <div class="wrapper">
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/chat.js' %}"></script>
+</body>
+</html>
