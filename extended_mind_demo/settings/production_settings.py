@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/1.10/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.10/ref/settings/
 """
-
+DEBUG = True
 if DEBUG == False:
 
 
@@ -45,12 +45,14 @@ if DEBUG == False:
         'django.contrib.sessions',
         'django.contrib.messages',
         'django.contrib.staticfiles',
-
+        'django.contrib.sites',
         # my apps
 
         'demo_site',
         'hally_v01'
     ]
+
+    SITES_ID = 1
 
     MIDDLEWARE = [
         'django.middleware.security.SecurityMiddleware',
@@ -88,12 +90,15 @@ if DEBUG == False:
 
     DATABASES = {
         'default': {
-            'ENGINE': os.environ.get("DB_ENGINE"), 
-            'NAME': os.environ.get("DB_NAME"), 
+            'ENGINE': os.environ.get("DB_ENGINE"),
+            'NAME': os.environ.get("DB_NAME"),
             'USER': os.environ.get("DB_USR"),
             'PASSWORD': os.environ.get("DB_PWD"),
-            'HOST': os.environ.get("DB_HOST"), 
-            'PORT': '', # Set to empty string for default.
+            'HOST': os.environ.get("DB_HOST"),
+            'PORT': '3306', # Set to empty string for default.
+            'OPTIONS': {
+                'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+            }
         }
     }
 
@@ -137,5 +142,5 @@ if DEBUG == False:
     STATIC_URL = '/static/'
     MEDIA_URL = '/media/'
 
-    STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-    MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+    STATIC_ROOT = os.path.dirname(BASE_DIR) + '/public/static/'
+    MEDIA_ROOT = os.path.dirname(BASE_DIR) + '/public/media/'

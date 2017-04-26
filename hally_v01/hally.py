@@ -1,10 +1,12 @@
-import os
+import os, random
+
 from sklearn.externals import joblib
 
 from response_utils.parse_input import parse_format_input, switch_possessive
 from response_utils.noun_select import Noun_Select
-from response_utils.simple_math import Simple_Math
 
+from response_utils.math_unit import Math_Unit
+from response_utils.info_unit import Info_Unit
 
 
 class Hally(object):
@@ -13,16 +15,21 @@ class Hally(object):
         super(Hally, self).__init__()
 
 
+    # load trained sklearn classifier
     direct = os.path.dirname(__file__)
     filename = os.path.join(direct, 'data/data_models')
-
     models = joblib.load(filename)
 
+
+
     def predict_intent(self, sent):
+
         sent = parse_format_input(sent)
         for name, clf in self.models.iteritems():
             intent = clf.predict(sent)[0]
         return intent
+
+
 
 
     def predict_subjects(self, sent):
@@ -37,27 +44,34 @@ class Hally(object):
             return nouns[0]
 
 
+
+
     def decide_response(self, sent, intent, subjects):
 
-        if intent == "MATH":
+        dispatcher = {
+            "MATH": Math_Unit(),
+            "SEAR": Info_Unit(),
+            "LERN": Info_Unit()
+        }
 
-            return Simple_Math(sent)
-
-        elif intent == "REMI":
-            if subjects:
-                response = "Ok i will remind you about %s" % switch_possessive(subjects)
-            else:
-                response = "remind you about what?"
+        try: 
+            response = dispatcher[intent].response(sent, subjects)
             return response
 
-        elif intent == "LERN" or intent == "SEAR":
-            if subjects:
-                return "I dont know much about %s would you like to add something so i will in the future" % subjects
-            else:
-                return self.decide_response(sent, "RAND", False)
+        except:
 
-        else:
-            return sent
+            if intent == "POSS":
+                return "glad to be of service"
+
+            elif intent == "REMI":
+                if subjects:
+                    response = "Ok i would remind you about %s" % switch_possessive(subjects)
+                else:
+                    response = "remind you about what?"
+                return response
+
+            else:
+                return sent
 
 
 

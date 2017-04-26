@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>InstaSerfs</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+    <style type="text/css">
+        *, *:before, *:after {
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            margin:0;
+        }
+        html, body { 
+            -webkit-font-smoothing: antialiased;
+            font-size: 14px;
+            color: #E91E63;
+            background-color: #3F51B5;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        a { color: #fff; text-decoration: none; }
+
+        p { color: #fff; }
+
+        .title { text-align: center; }
+
+        ::-moz-selection { background: transparent; }
+
+        ::selection { background: transparent; }
+
+        .mover { position: fixed; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="mover title">
+        <h1>InstaSerfs.eu</h1>
+        <p><em>You gota work for those clicks</em></p>
+    </div>
+
+    <h3 class="link mover"><a href="/extended_mind_demo/">Extended Mind Demo</a></h3>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            animateDiv('.title');
+            animateDiv('.link');
+        });
+
+        function makeNewPosition(div){
+            
+            // Get viewport dimensions (remove the dimension of the div)
+            var h = $(window).height() - $(div).height();
+            var w = $(window).width() - $(div).width();
+            
+            var nh = Math.floor(Math.random() * h);
+            var nw = Math.floor(Math.random() * w);
+            
+            return [nh,nw];    
+            
+        }
+
+        function animateDiv(div) {
+            var newq = makeNewPosition(div);
+            var oldq = $(div).offset();
+            var speed = calcSpeed([oldq.top, oldq.left], newq);
+
+            $(div).animate({ top: newq[0], left: newq[1] }, speed, function() {
+                animateDiv(div);        
+            });
+
+            function calcSpeed(prev, next) {
+                
+                var x = Math.abs(prev[1] - next[1]);
+                var y = Math.abs(prev[0] - next[0]);
+                
+                var greatest = x > y ? x : y;
+                
+                var speedModifier = 0.4;
+
+                var speed = Math.ceil(greatest/speedModifier);
+
+                return speed;
+            }
+            
+        };
+    </script>
+</body>
+</html>

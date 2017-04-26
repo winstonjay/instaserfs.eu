@@ -2,17 +2,25 @@ import os
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect, HttpResponse, JsonResponse
 from django.contrib.auth import authenticate, login, logout, get_user_model
+from django.utils.html import strip_tags
 
 from .forms import User_Login_Form, Post_Form
 
-from .models import Post, Profile, DevOps
+from .models import Post, DevOps
+#Profile,
+
+
+
+def insta_home(request):
+
+    return render(request, 'demo_site/insta_home.html')
 
 
 def landing_page(request):
 
     form = User_Login_Form(request.POST or None)
 
-    demo_url = '/demo/{0}'.format(os.environ.get("DEMO_URL"))
+    demo_url = '/extended_mind_demo/{0}'.format(os.environ.get("DEMO_URL"))
 
     if form.is_valid():
         username = form.cleaned_data.get("username")
@@ -24,7 +32,7 @@ def landing_page(request):
 
     context = {
         'page_title': "Conversational UI Demo",
-        'links': [('GitHub', 'https://github.com/', 'github-id')],
+        'links': [('GitHub', 'https://github.com/winstonjay/extended-mind-experiments', 'github-id')],
         'demo_url': demo_url,
         'form': form
     }
@@ -39,7 +47,7 @@ def logout_link(request):
 
     logout(request)
 
-    return redirect('/')
+    return redirect('/extended_mind_demo/')
 
 
 
@@ -48,7 +56,7 @@ def logout_link(request):
 def demo(request):
 
     if not request.user.is_authenticated():
-        return redirect('/')
+        return redirect('/extended_mind_demo/')
 
     posts = Post.objects.filter(author=request.user)
 
@@ -57,12 +65,13 @@ def demo(request):
     post_form = Post_Form(request.POST or None)
 
     context = {
-        'page_title': request.user.profile.bot_name,
+        # 'page_title': request.user.profile.bot_name,
+        'page_title': 'Hally',
         'links': [
             ('Development Info', '#', 'main-id'),
             ('Resources', '#', 'resources-id'),
             ('Modules', '#', 'modules-id'),
-            ('Logout', '/logout/', 'exit-id')
+            ('Logout', '/extended_mind_demo/logout/', 'exit-id')
         ],
         'posts': posts,
         'post_form': post_form,
@@ -87,7 +96,7 @@ def create_post(request):
             post_text = request.POST.get('the_post')
             post_author = request.user
 
-            post = Post(message=post_text, author=post_author)
+            post = Post(message=strip_tags(post_text), author=post_author)
             post.save()
 
             response_data = {}
@@ -104,7 +113,7 @@ def create_post(request):
             response_data['subjects'] = post.subjects
             response_data['past_intents'] = past_contexts
             response_data['message_reply'] = post.message_reply
-            response_data['upload_date'] = post.upload_date.strftime('%B %d, %Y %I:%M %p')
+            response_data['date/time'] = post.upload_date.strftime('%B %d, %Y %I:%M %p')
 
 
             past_contexts.append(post.intent)

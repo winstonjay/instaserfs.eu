@@ -1,6 +1,7 @@
 appdirs==1.4.3
 click==6.7
 Django==1.11
+MySQL-python==1.2.5
 nltk==3.2.2
 numpy==1.12.1
 olefile==0.44

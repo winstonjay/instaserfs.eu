@@ -3,13 +3,9 @@ $(function() {/* This function gets cookie with a given name */ function getCook
 // AJAX for posting
 function create_post() {
 
-    var message_div = document.createElement('div');
-    message_div.className = "message user-message";
-    var message = $('#user_message').val()
-    $(message_div).text(message);
-    $(".messages").append(message_div);
-
-    var post_url = "/demo/eeb4ff8a206697973ce757_create_post_b5b3c6d7aeb8845decf26e85117f/"
+    
+    
+    var post_url = "/extended_mind_demo/eeb4ff8a206697973ce757_create_post_b5b3c6d7aeb8845decf26e85117f/"
     //console.log("create post is working!") // sanity check
     $.ajax({
         url : post_url, // the endpoint
@@ -17,13 +13,22 @@ function create_post() {
         data : { the_post : $('#user_message').val() }, // data sent with the post request
 
 
+
         // handle a successful response
          success : function(json) {
 
-            $('#user_message').val(''); // remove the value from the input
+            var message_div = document.createElement('div');
+            message_div.className = "message user-message";
+            var message = $('#user_message').val()
+            $(message_div).text(message);
+            $(".messages").append(message_div);
+            $('#user_message').val('');
+
+
+             // remove the value from the input
                  // log the returned json to the console
 
-            // var replyTime = Math.floor((Math.random() * 1000) + 1000);
+            var replyTime = Math.floor((Math.random() * 500) + 500);
 
             setTimeout(function () {
                 var reply_div = document.createElement('div');
@@ -33,7 +38,7 @@ function create_post() {
                 $('.messages-inner-container').scrollTop($('.messages-inner-container')[0].scrollHeight);
                 message_div = null;
                 reply_div = null;
-            }, 0);
+            }, replyTime);
 
 
             $('#inner').text(JSON.stringify(json, null, 2));
@@ -46,7 +51,7 @@ function create_post() {
         error : function(xhr,errmsg,err) {
             $('#results').html("<div class='alert-box alert radius' data-alert>Oops! We have encountered an error: "+errmsg+
                 " <a href='#' class='close'>&times;</a></div>"); // add the error to the dom
-            console.log(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
+            console.log(xhr.status + ": there was an error"); // provide a bit more info about the error to the console
         }
     });
 };
