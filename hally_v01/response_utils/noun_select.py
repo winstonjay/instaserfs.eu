@@ -35,12 +35,9 @@ class NounSelector(object):
         return [x.strip() for x in re.split(r'(\w+[\.*\:*\-*\w*]*\.*\-*\w*)?', sent) if x.strip()]
 
 
-
     def acceptable_word(self, word):
         """Checks conditions for acceptable word: length, stopword."""
-        accepted = bool(2 <= len(word) <= 20 and word.lower() not in self.stopwords)
-        return accepted
-
+        return bool(2 <= len(word) <= 20 and word.lower() not in self.stopwords)
 
 
     def get_leaves(self, tree):

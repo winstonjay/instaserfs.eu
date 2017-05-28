@@ -49,7 +49,8 @@ if DEBUG == False:
         # my apps
 
         'demo_site',
-        'hally_v01'
+        'hally_v01',
+        'tictactoe'
     ]
 
     SITES_ID = 1

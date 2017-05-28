@@ -1,6 +1,6 @@
 from django import forms
 from django.contrib.auth import authenticate, get_user_model, login, logout
-
+from django.utils.html import strip_tags
 from .models import Post
 
 
@@ -49,6 +49,14 @@ class Post_Form(forms.ModelForm):
                 attrs={'id': 'user_message', 'required': True, 'placeholder': 'Say something...', "autocomplete": "off"}
             ),
         }
+
+    def clean(self, *args, **kwargs):
+        cleaned_data = super(Post_Form, self).clean()
+        message = strip_tags(self.cleaned_data.get("message"))
+
+        print message
+        return message
+
 
 
 

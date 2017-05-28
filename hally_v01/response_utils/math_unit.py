@@ -51,11 +51,10 @@ class Math_Unit(object):
 
         numbers = map(float, numbers)
 
-        print operators
         try: # not to be ridiculous
             for op in operators:
                 if len(numbers) > 0:
-                    if op == "+" or op == "plus" or op == "add":
+                    if op in ("+", "plus", "add"):
                         result = result + numbers[0]
                         numbers.pop(0)
                     elif op == "-" or op == "minus" or op == "subtract":
@@ -90,7 +89,7 @@ class Math_Unit(object):
                         result = result ** 3
                     elif op == "square root":
                         result = result ** (float(1)/2)
-                    elif op == "cube root" or op == "cubed root":
+                    elif op == "cube root" or "cubed root":
                         result = result ** (float(1)/3)
                 else:
                     if op == "squared":

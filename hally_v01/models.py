@@ -10,14 +10,12 @@ from django.db.models.signals import post_save
 
 
 
-from hally import Hally 
 
-classifier = Hally()
 
 # Create your models here.
 
 class Subject(models.Model):
-    noun = models.CharField(max_length=30, null=True, blank=True, unique=True)
+    noun = models.CharField(max_length=30, null=True, blank=True)
     theKey = models.CharField(max_length=30, null=True, blank=True)
 
     def __str__(self):
@@ -48,6 +46,10 @@ class Knowledge(models.Model):
 def sub_related_changed(sender, instance, *args, **kwargs):
 
     if instance.item_info:
+
+        from hally import Hally 
+        classifier = Hally()
+        
         item_subjects = classifier.predict_subjects(instance.item_info)
         
         if item_subjects:
@@ -62,17 +64,17 @@ def sub_related_changed(sender, instance, *args, **kwargs):
             print instance.item_subjects.all()
     
 
-
-def model_saved(sender, instance, *args, **kwargs):
-
-
-        print instance
-
-
-
-
 post_save.connect(sub_related_changed, sender=Knowledge)
-m2m_changed.connect(model_saved, sender=Knowledge.item_subjects.through)
+# def model_saved(sender, instance, *args, **kwargs):
+
+
+#         print instance
+
+
+
+
+
+# m2m_changed.connect(model_saved, sender=Knowledge.item_subjects.through)
 
 
         

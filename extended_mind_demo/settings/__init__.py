@@ -2,7 +2,7 @@
 try:
     from .local_settings import *
 except:
-    DEBUG = False
+    DEBUG = True
     pass
 
 # try: 

@@ -8,7 +8,7 @@ from .forms import User_Login_Form, Post_Form
 
 from .models import Post, DevOps
 #Profile,
-
+from cgi import escape
 
 
 def insta_home(request):
@@ -44,9 +44,7 @@ def landing_page(request):
 
 
 def logout_link(request):
-
     logout(request)
-
     return redirect('/extended_mind_demo/')
 
 
@@ -94,6 +92,7 @@ def create_post(request):
 
         if request.POST.get('the_post') != "":
             post_text = request.POST.get('the_post')
+
             post_author = request.user
 
             post = Post(message=strip_tags(post_text), author=post_author)
@@ -101,18 +100,19 @@ def create_post(request):
 
             response_data = {}
 
-            if post.subjects:
-                post.subjects = post.subjects.split(",")
+            # if post.subjects:
+                # subjects = [p.strip() for p in post.subjects.split(",")]
 
             if post.intent == "REMI":
                 task_in_progress.append(post.intent)
 
-            response_data['message'] = post.message
+            response_data['message'] = escape(post.message) 
+            # escape for the inital rendering in json was causing problems before
             response_data['intent'] = post.intent
             response_data['task'] = task_in_progress
             response_data['subjects'] = post.subjects
             response_data['past_intents'] = past_contexts
-            response_data['message_reply'] = post.message_reply
+            response_data['message_reply'] = escape(post.message_reply)
             response_data['date/time'] = post.upload_date.strftime('%B %d, %Y %I:%M %p')
 
 
