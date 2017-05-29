@@ -145,3 +145,5 @@ if DEBUG == False:
 
     STATIC_ROOT = os.path.dirname(BASE_DIR) + '/public/static/'
     MEDIA_ROOT = os.path.dirname(BASE_DIR) + '/public/media/'
+
+    GOOGLE_ANALYTICS_PROPERTY_ID = os.environ.get('GA_CODE')

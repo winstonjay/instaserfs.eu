@@ -1,0 +1,11 @@
+{
+  "name": "TicTacToe",
+  "short_name": "TicTacToe",
+  "scope": "/tictactoe/",
+  "orientation": "portrait-primary",
+  "description": "Unbeatable TicTacToe game demonstrating basic minmax algorithm.",
+  "start_url": "/tictactoe/",
+  "display": "standalone",
+  "background_color": "#FFCA28",
+  "theme_color": "#FFCA28"
+}

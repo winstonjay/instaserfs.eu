@@ -131,29 +131,33 @@ function enter_game() {
 
 function draw_win_line(type, n)
 {
-    var line, pos = (100*n) + 50;
+    var line;
+    var boardXY = $('.board').width();
+    var pos = ((boardXY/3)*n) + (boardXY/6)
+
     var win_SVG = newSVG("svg", { 
-        class:"abs", width:"300", height:"300", viewBox:"0 0 300 300" 
+        class:"abs", width:boardXY, height:boardXY, viewBox:"0 0 "+boardXY+" "+boardXY 
     });
     $('.board').prepend(win_SVG);
-    pos = pos == 50 ? pos-2 : pos;
+
     if (type == "horizontal")
     {   
-        line = newSVG("line", { class:"a", y1:pos, x2:"300", y2:pos });
+        line = newSVG("line", { class:"a", y1:pos, x2:boardXY, y2:pos });
     }
     else if (type == "vertical")
     {
-        line = newSVG("line", { class:"a", x1:pos, y2:"300", x2:pos });
+        line = newSVG("line", { class:"a", x1:pos, y2:boardXY, x2:pos });
     }
     else if (type == "diagonal")
     {
+        var offset = boardXY * 0.025; 
         if (n == 1)
             line = newSVG("line", { 
-                class:"a", x1:"7.5", y1:"7.5",  x2:"292", y2:"292" 
+                class:"a", x1:offset, y1:offset,  x2:boardXY-offset, y2:boardXY-offset
             });
         if (n == 2)
             line = newSVG("line", { 
-                class:"a", x1:"7.5", y1:"292",  x2:"292", y2:"7.5" 
+                class:"a", x1:offset, y1:boardXY-offset,  x2:boardXY-offset, y2:offset 
             });
         $(line).addClass('c');
     }
@@ -222,8 +226,8 @@ function botMove(image, position)
     var sqr = '.square[data-position="['+ position +']"]'; 
     if (!$(sqr).hasClass('ocupied')) 
     {
+        $(sqr).addClass('ocupied');
         setTimeout(() => {
-            $(sqr).addClass('ocupied');
             $(sqr).html(image);
         }, 500);
     }
@@ -235,8 +239,6 @@ function increment_counter(winner, count_cls=".draws")
         count_cls = ".computer";
     else if (winner == player)
         count_cls = ".humans";
-
-    console.log(count_cls+": "+$(count_cls).text())
     $(count_cls).text(parseInt($(count_cls).text(), 10)+1)
 }
 
@@ -255,6 +257,7 @@ function human_move()
     }
 }
 
+var error_count = 0;
 function makeMove() 
 {
     // if ([].concat.apply([], board).includes(null) === false) 
@@ -296,8 +299,23 @@ function makeMove()
         error: function(error) 
         {
             console.log("There was a crazy error");
+            if (error_count < 3)
+            {
+                error_count++;
+                setTimeout(makeMove, 500);
+            }
+            else
+            {
+                error_count = 0;
+                $('.bad-connection').addClass('active');
+            }
         }
     });
+}
+
+function error_handle() {
+    $('.bad-connection').removeClass('active');
+    makeMove();
 }
 
 function game_end_message(winner)
@@ -377,8 +395,6 @@ function reset_game()
 
 $(function() { function getCookie(name) {var cookieValue = null; if (document.cookie && document.cookie != '') {var cookies = document.cookie.split(';'); for (var i = 0; i < cookies.length; i++) {var cookie = jQuery.trim(cookies[i]); /* Does this cookie string begin with the name we want? */ if (cookie.substring(0, name.length + 1) == (name + '=')) {cookieValue = decodeURIComponent(cookie.substring(name.length + 1)); break; } } } return cookieValue; } var csrftoken = getCookie('csrftoken'); /* The functions below will create a header with csrftoken */ function csrfSafeMethod(method) {/* these HTTP methods do not require CSRF protection */ return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method)); } function sameOrigin(url) {/* test that a given url is a same-origin URL url could be relative or scheme relative or absolute */ var host = document.location.host; /* host + port */ var protocol = document.location.protocol; var sr_origin = '//' + host; var origin = protocol + sr_origin; /* Allow absolute or scheme relative URLs to same origin */ return (url == origin || url.slice(0, origin.length + 1) == origin + '/') || (url == sr_origin || url.slice(0, sr_origin.length + 1) == sr_origin + '/') || /* or any other URL that isn't scheme relative or absolute i.e relative. */ !(/^(\/\/|http:|https:).*/.test(url)); } $.ajaxSetup({beforeSend: function(xhr, settings) {if (!csrfSafeMethod(settings.type) && sameOrigin(settings.url)) {/* Send the token to same-origin, relative URLs only. Send the token only if the method warrants CSRF protection Using the CSRFToken value acquired earlier */ xhr.setRequestHeader("X-CSRFToken", csrftoken); } } }); });
 
-
-
 $(document).ready(function () 
 {
     generateBoard('.board');
@@ -388,6 +404,7 @@ $(document).ready(function ()
     $('.square').on('click', human_move);
     $('.option').on('click', start_game);
     $('.reset').on('click', reset_game);
-    $('.bot_thoughts_mode').on('click', bot_thoughts.toggle)
-    $('.close-thoughts').on('click', bot_thoughts.hide)
-})
+    $('.bot_thoughts_mode').on('click', bot_thoughts.toggle);
+    $('.close-thoughts').on('click', bot_thoughts.hide);
+    $('.retry-connection').on('click', error_handle);
+});

@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from django.db.models import F
+from django.conf import settings
 
 import json
 
@@ -12,7 +13,11 @@ from game import generate_response
 def tic_tac_toe(request):
     """ Main View """
     count = Counter.objects.all()
-    return render(request, 'tictactoe/base.html', {"count": count})
+    context = {
+        "count": count,
+        "google_analytics": settings.GOOGLE_ANALYTICS_PROPERTY_ID
+    }
+    return render(request, 'tictactoe/base.html', context)
 
 
 def computer_move(request):

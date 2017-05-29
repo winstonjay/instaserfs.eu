@@ -1,4 +1,5 @@
 import os
+from django.conf import settings
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect, HttpResponse, JsonResponse
 from django.contrib.auth import authenticate, login, logout, get_user_model
@@ -12,8 +13,10 @@ from cgi import escape
 
 
 def insta_home(request):
-
-    return render(request, 'demo_site/insta_home.html')
+    context = {
+        'google_analytics': settings.GOOGLE_ANALYTICS_PROPERTY_ID
+    }
+    return render(request, 'demo_site/insta_home.html', context)
 
 
 def landing_page(request):
@@ -34,7 +37,8 @@ def landing_page(request):
         'page_title': "Conversational UI Demo",
         'links': [('GitHub', 'https://github.com/winstonjay/extended-mind-experiments', 'github-id')],
         'demo_url': demo_url,
-        'form': form
+        'form': form,
+        'google_analytics': settings.GOOGLE_ANALYTICS_PROPERTY_ID
     }
 
     return render(request, 'demo_site/landing.html', context)
@@ -73,7 +77,8 @@ def demo(request):
         ],
         'posts': posts,
         'post_form': post_form,
-        'dev_ops': dev_ops
+        'dev_ops': dev_ops,
+        'google_analytics': settings.GOOGLE_ANALYTICS_PROPERTY_ID
     }
 
     return render(request, 'demo_site/demo.html', context)

@@ -6,6 +6,6 @@ from django.contrib import admin
 from .models import Counter
 
 class CountAdmin(admin.ModelAdmin):
-    list_display = ('title', 'count')
+    list_display = ('title', 'count', 'percentage')
 
 admin.site.register(Counter, CountAdmin)
